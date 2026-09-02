@@ -340,6 +340,29 @@ body {
     color: var(--lsu-purple-dark);
 }
 
+/* Project Teaser Box in Experience Section */
+.project-teaser {
+    background-color: #f7f3fd;
+    border-left: 4px solid var(--lsu-purple);
+    padding: 0.65rem 0.95rem;
+    margin: 0.75rem 0;
+    border-radius: 4px;
+}
+
+.project-teaser p {
+    margin-bottom: 0;
+}
+
+.project-teaser a {
+    color: var(--lsu-purple);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.project-teaser a:hover {
+    color: var(--lsu-purple-dark);
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
     .header-container {
