@@ -4,12 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Thien Vu | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
-    <p>My name is Thien Vu.</p>
+
+    <!-- Main Site Header & Page Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="site-title">Thien Vu <span>| Portfolio</span></a>
+            <nav class="main-nav" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="project.html">Project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Quick In-Page Section Navigation for Home Page -->
+    <nav class="section-nav" aria-label="Section Navigation">
+        <div class="section-nav-container">
+            <span class="section-nav-label">Jump to Section:</span>
+            <ul class="section-nav-links">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-container">
+
+        <!-- 1. Profile Section -->
+        <section id="profile" class="card-section">
+            <h2>Profile</h2>
+            <p><strong>Hello! My name is Thien Vu.</strong></p>
+            <p>I study <strong>Information Systems &amp; Analytics</strong> at Louisiana State University (LSU).</p>
+
+            <div class="placeholder-box">
+                <strong>[Placeholder - About Me / Bio]:</strong>
+                Write a brief personal summary here (for example: your academic interests, career goals in
+                analytics/tech, and what drives you).
+            </div>
+        </section>
+
+        <!-- 2. Skills Section -->
+        <section id="skills" class="card-section">
+            <h2>Skills</h2>
+            <p>Below is a placeholder area to categorize and list your technical, analytical, and professional
+                competencies.</p>
+
+            <div class="placeholder-box">
+                <strong>[Placeholder - Technical Skills]:</strong>
+                List tools and technologies you are learning or know (e.g., Python, SQL, Excel, HTML/CSS, R, Tableau,
+                etc.).
+            </div>
+
+            <div class="placeholder-box">
+                <strong>[Placeholder - Analytical &amp; Business Skills]:</strong>
+                List methods or subject-matter skills (e.g., Database Design, Data Visualization, Systems Analysis,
+                Business Process Modeling).
+            </div>
+
+            <div class="placeholder-box">
+                <strong>[Placeholder - Soft Skills]:</strong>
+                List professional communication, teamwork, project management, and problem-solving skills.
+            </div>
+        </section>
+
+        <!-- 3. Experience Section -->
+        <section id="experience" class="card-section">
+            <h2>Experience</h2>
+            <p>Below is a placeholder area for your academic, leadership, or work experience.</p>
+
+            <div class="placeholder-box">
+                <strong>[Placeholder - Experience Entry 1]:</strong><br>
+                <em>Job Title / Role Title</em> — <em>Company / Organization Name</em> (Location)<br>
+                <span>Dates: Month Year – Month Year</span>
+                <ul>
+                    <li>Bullet point describing your responsibilities and achievements.</li>
+                    <li>Bullet point highlighting tools or methods you used.</li>
+                </ul>
+            </div>
+
+            <div class="placeholder-box">
+                <strong>[Placeholder - Experience Entry 2 / Campus Involvements]:</strong><br>
+                <em>Student Organization Role / Part-Time Role</em> — <em>LSU or Organization Name</em><br>
+                <span>Dates: Month Year – Present</span>
+                <ul>
+                    <li>Bullet point describing relevant campus activities or projects.</li>
+                </ul>
+            </div>
+
+            <p><a href="resume.html" class="btn">View Complete Resume &rarr;</a></p>
+        </section>
+
+        <!-- 4. Contact Section -->
+        <section id="contact" class="card-section">
+            <h2>Contact</h2>
+            <p>Feel free to connect with me regarding opportunities, projects, or questions.</p>
+
+            <div class="placeholder-box">
+                <strong>[Placeholder - Contact Information]:</strong>
+                <ul>
+                    <li><strong>Email:</strong> [Your LSU Email Address]</li>
+                    <li><strong>LinkedIn:</strong> [Link to your LinkedIn Profile]</li>
+                    <li><strong>GitHub:</strong> [Link to your GitHub Profile - optional]</li>
+                    <li><strong>Phone:</strong> [Your Phone Number - optional]</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Thien Vu &bull; ISDS 4125 Portfolio</p>
+        <p>Built with plain HTML &amp; CSS</p>
+    </footer>
+
 </body>
 
 </html>
