@@ -5,17 +5,28 @@
 
 /* Color and Design Variables */
 :root {
-    --lsu-purple: #461D7C;       /* Official LSU Deep Purple */
-    --lsu-purple-dark: #321458;  /* Darker purple for hover/borders */
-    --lsu-gold: #FDD023;         /* Official LSU Gold */
-    --lsu-gold-hover: #e5bc1c;   /* Slightly deeper gold for buttons/hovers */
-    --text-color: #222222;       /* Charcoal for high-contrast readable text */
-    --text-muted: #555555;       /* Softer gray for subtitles */
-    --bg-page: #f7f6fa;          /* Soft light lilac/gray background */
-    --bg-surface: #ffffff;       /* Pure white card backgrounds */
-    --border-color: #ded9e8;     /* Subtle purple-tinted border */
-    --placeholder-bg: #fff9e6;   /* Light warm gold tint for placeholders */
-    --placeholder-border: #d4a713; /* Gold-amber border for placeholders */
+    --lsu-purple: #461D7C;
+    /* Official LSU Deep Purple */
+    --lsu-purple-dark: #321458;
+    /* Darker purple for hover/borders */
+    --lsu-gold: #FDD023;
+    /* Official LSU Gold */
+    --lsu-gold-hover: #e5bc1c;
+    /* Slightly deeper gold for buttons/hovers */
+    --text-color: #222222;
+    /* Charcoal for high-contrast readable text */
+    --text-muted: #555555;
+    /* Softer gray for subtitles */
+    --bg-page: #f7f6fa;
+    /* Soft light lilac/gray background */
+    --bg-surface: #ffffff;
+    /* Pure white card backgrounds */
+    --border-color: #ded9e8;
+    /* Subtle purple-tinted border */
+    --placeholder-bg: #fff9e6;
+    /* Light warm gold tint for placeholders */
+    --placeholder-border: #d4a713;
+    /* Gold-amber border for placeholders */
 }
 
 /* Base resets & box model */
@@ -90,7 +101,8 @@ body {
 /* Highlight the active page in the menu */
 .main-nav a.active {
     background-color: var(--lsu-gold);
-    color: #1a0b33; /* High contrast dark text on yellow */
+    color: #1a0b33;
+    /* High contrast dark text on yellow */
 }
 
 /* In-Page Quick Navigation (Home Page Section Links) */
@@ -142,7 +154,8 @@ body {
     width: 100%;
     margin: 2rem auto;
     padding: 0 1.5rem;
-    flex: 1; /* Pushes footer to bottom */
+    flex: 1;
+    /* Pushes footer to bottom */
 }
 
 /* Cards / Section Styling */
@@ -389,5 +402,9 @@ body {
         align-items: flex-start;
         gap: 0.1rem;
     }
-}
 
+    .project-title {
+        font-size: 1.35rem;
+        line-height: 1.25;
+    }
+}
