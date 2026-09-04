@@ -215,6 +215,13 @@ body {
 }
 
 /* Buttons and Links */
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+    outline: 3px solid var(--lsu-gold);
+    outline-offset: 2px;
+}
+
 .btn {
     display: inline-block;
     background-color: var(--lsu-purple);
