@@ -1,6 +1,10 @@
 # Thien Vu — Personal Portfolio
 
-This personal portfolio was created for the ISDS 4125 Individual Vibe Coding Exercise using Google Antigravity, HTML, and CSS. It includes a Home page with my profile, skills, experience, and contact information; a detailed Resume page; and a Project page describing my contribution to classroom computer preparation and deployment at Sarah T. Reed High School.
+A portfolio for my Information Systems & Analytics work at Louisiana State University. The site includes a homepage, a printable résumé, and case studies covering classroom device deployment, Power BI coursework, and the Piccolo team concept.
+
+## Run locally
+
+Open `index.html` in a browser or serve this folder with `python3 -m http.server 8000`. The site uses plain HTML, CSS, and JavaScript. The relative links work when the repository is published under the GitHub Pages project path.
 
 ## Live Website
 
