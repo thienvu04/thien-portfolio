@@ -9,11 +9,3 @@ This personal portfolio was created for the ISDS 4125 Individual Vibe Coding Exe
 ## Learning Reflection
 
 When the agent linked styles.css in each of my three HTML pages, I wanted to understand why the link was needed on every page. I asked the agent to explain this using my website. I learned that each HTML page loads as a separate document and needs its own stylesheet link to apply our shared design. Sharing one CSS file lets me update the design in one place while keeping all three pages consistent, and the browser can reuse a cached copy of that file.
-
-## Portfolio pages
-
-- `index.html` introduces my background, skills, experience, and selected work.
-- `project.html` covers classroom device deployment, an AdventureWorks Power BI report, and the Piccolo course project.
-- `resume.html` contains a print-friendly résumé.
-
-Open `index.html` in a browser to preview the site locally. GitHub Pages serves these files directly from the repository root.

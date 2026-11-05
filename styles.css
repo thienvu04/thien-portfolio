@@ -820,11 +820,6 @@ a:focus-visible,button:focus-visible {
   color:#332717;
 }
 
-.art-product {
-  background:linear-gradient(125deg,#7e6b9f,#c4b2e1);
-  color:#332547;
-}
-
 .project-number {
   position:absolute;
   top:17px;
@@ -928,7 +923,7 @@ a:focus-visible,button:focus-visible {
   margin-top:7px;
 }
 
-.device-art,.analytics-art,.app-art {
+.device-art,.analytics-art {
   position:relative;
   height:100%;
   width:100%;
@@ -938,7 +933,7 @@ a:focus-visible,button:focus-visible {
   overflow:hidden;
 }
 
-.device-art::before,.app-art::before,.analytics-art::before {
+.device-art::before,.analytics-art::before {
   content:"";
   position:absolute;
   inset:0;
@@ -1161,87 +1156,6 @@ a:focus-visible,button:focus-visible {
 
 .chart-note {
   font-size:.53rem;
-}
-
-.app-art {
-  background:radial-gradient(ellipse at 53% 40%,#e7d8ff5a,transparent 66%);
-}
-
-.paper,.paper-back {
-  width:58%;
-  max-width:245px;
-  min-width:160px;
-  min-height:147px;
-  border-radius:13px;
-  box-shadow:0 12px 32px #33204c63;
-  position:relative;
-  transform:rotate(-8deg);
-  background:#fbf0e5;
-  padding:13px 16px;
-  color:#382a45;
-  transition:transform .4s;
-}
-
-.paper-back {
-  position:absolute;
-  transform:rotate(10deg) translate(9px,5px);
-  background:#573e70;
-  min-height:147px;
-}
-
-.project-card:hover .paper {
-  transform:rotate(-4deg) translateY(-3px);
-}
-
-.paper-logo {
-  display:inline-block;
-  font-size:1.06rem;
-  font-weight:850;
-  line-height:1;
-}
-
-.paper-logo span {
-  font-size:.55rem;
-  color:#9b6e3e;
-  vertical-align:super;
-  margin-left:2px;
-}
-
-.paper-title {
-  font:italic 400 clamp(.94rem,1.85vw,1.46rem)/1.04 var(--serif);
-  letter-spacing:-.035em;
-  margin-block:4px 10px;
-}
-
-.paper-line {
-  background:#51375c31;
-  height:3px;
-  width:90%;
-  border-radius:4px;
-  margin-bottom:4px;
-}
-
-.paper-line.short {
-  width:58%;
-}
-
-.paper-button {
-  background:#443050;
-  border-radius:4px;
-  color:#f8ede5;
-  font-size:.54rem;
-  display:flex;
-  justify-content:space-between;
-  gap:4px;
-  padding:4px 6px;
-  margin-top:7px;
-}
-
-.paper-label {
-  font:700 .43rem var(--mono);
-  letter-spacing:.06em;
-  margin-top:7px;
-  color:#69576e;
 }
 
 .skills-grid {
@@ -1908,10 +1822,6 @@ a:focus-visible,button:focus-visible {
   border-radius:14px;
   overflow:hidden;
   border:1px solid #b9a2ce;
-}
-
-.case-mini-art .paper,.case-mini-art .paper-back {
-  width:52%;
 }
 
 .case-end {
